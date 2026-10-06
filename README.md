@@ -13,6 +13,7 @@ App Store Reviews Scraper is an Apify Actor that extracts Apple App Store review
 - Any app and storefront: App Store URLs, numeric App IDs or app names, several countries per run; newest or most helpful first; star filters.
 - Only new reviews mode for scheduled monitoring; repeats aren't charged. In a test run, 5,000 reviews from 3 apps in 2 countries took under 2 minutes.
 - Price: $0.08 per 1,000 reviews on the Free plan ($0.05–$0.07 on paid plans), with no caps on free-plan runs or reviews. Apify's free $5 monthly credit covers over 60,000 reviews.
+- Migrating from the Node package app-store-scraper? The open-source app-store-scraper-cloud package (github.com/retracn/app-store-scraper-cloud) keeps its API and runs reviews() on this Actor: change one require line, with no 403 errors and no 500-review cap.
 
 ## Example input
 
